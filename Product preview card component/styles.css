@@ -124,6 +124,11 @@ main {
     justify-content: center;
 }
 
+.card-buy:hover {
+    background-color: hsl(158, 36%, 17%);
+    cursor: pointer;
+}
+
 .card-buy-ico {
     margin-right: 5%;
 }
