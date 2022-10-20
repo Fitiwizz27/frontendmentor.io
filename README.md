@@ -4,4 +4,4 @@ Will try to make some WEB stuff according to [this owersome site](https://www.fr
 
 | Practice Name | Link |
 | ------------ | ------------ |
-| Product preview card component | Link - [[link]](.Product&preview&card&component/index.html) |
+| Product preview card component | Link - [[link]](.Product%20preview%20card%20component/index.html) |
