@@ -15,9 +15,11 @@
 <body>
   <main>
     <div class="card">
-      <figure class="card-prw-image">
-        <img src="images/image-product-desktop.jpg" alt="image-product-desktop">
-      </figure>
+      <picture class="card-prw-image">
+        <source media="(max-width: 2440px)" srcset="./images/image-product-desktop.jpg">
+        <source media="(min-width: 375px)" srcset="./images/image-product-mobile.jpg">
+        <img src="./images/image-product-desktop.jpg" alt="Perfume Image">
+      </picture>
 
       <section class="card-desc">
         <div class="card-desc-product">Perfume</div>
@@ -26,10 +28,13 @@
           Perfumer-Creator for the House of CHANEL.</p>
         <section class="card-price">
           <div class="card-price-new">$149.99</div>
-          <div class="card-price-old">$169.99</div>
+          <del class="card-price-old">
+            <span class="sr-only">Old price:</span>$169.99
+          </del>
         </section>
+
         <button class="card-buy">
-          <img class="card-buy-ico" src="images/icon-cart.svg" alt="icon-cart"></img>
+          <img class="card-buy-ico" src="images/icon-cart.svg" alt="Shopping Trolley"></img>
           <p class="card-buy-p">Add to Cart</p>
         </button>
       </section>

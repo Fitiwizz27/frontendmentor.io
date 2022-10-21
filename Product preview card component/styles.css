@@ -103,12 +103,22 @@ main {
     font-size: calc(var(--font-size) * 2.6);
     font-family: 'Fraunces', serif;
     padding-right: 5%;
+    font-weight: normal;
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 .card-price-old {
     color: var(--text-color);
     font-family: 'Fraunces', serif;
-    text-decoration: line-through;
 }
 
 .card-buy {
@@ -136,9 +146,10 @@ main {
 .card-buy-p {
     color: hsl(0, 0%, 100%);
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
-@media (width <=475px) {
+@media (width <=375px) {
     .card {
         width: 500px;
         height: 665px;
