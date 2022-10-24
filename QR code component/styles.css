@@ -60,7 +60,7 @@ main {
     padding: 0 15px;
 }
 
-.card-desc h1 {
+.card-desc h2 {
     font-size: calc(var(--font-size) + 40%);
     color: hsl(218, 44%, 22%);
     text-align: center;
